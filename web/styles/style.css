@@ -1,7 +1,5 @@
-
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -9,33 +7,22 @@ body {
 }
 
 .header {
-  
   min-height: 100vh;
-  background: 
-    linear-gradient(#DD2211DE, #DD2211DE),
+  background: linear-gradient(#dd2211de, #dd2211de),
     url(../img/background-phone1.jpg) center/cover no-repeat;
 
   background-blend-mode: normal;
-
 }
-
 
 .container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-
-
 }
-
 
 .automative {
   width: 293px;
   height: 91px;
-
-
-
-
 }
 
 .header-top {
@@ -43,7 +30,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 190px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .nav {
@@ -52,15 +39,13 @@ body {
   height: 22px;
   display: flex;
   justify-content: space-evenly;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-
-
 }
 
 .nav li {
@@ -70,10 +55,10 @@ body {
 
 .nav li a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .nav li a:hover {
-  background-color: #130E27;
+  background-color: #130e27;
 }
 
 .header_title {
@@ -83,24 +68,21 @@ body {
   margin: 0 auto;
   margin-left: 190px;
   margin-bottom: 50px;
-  font-family: "Montserrat";
-  color: #130E27;
+  font-family: 'Montserrat';
+  color: #130e27;
   font-weight: 700;
   font-size: 90px;
   line-height: 82px;
   letter-spacing: -2%;
-  
-  
-
 }
 .span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header__text {
   width: 494px;
   height: 84px;
   font-weight: 400px;
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -108,36 +90,27 @@ body {
   margin: 0 auto;
   margin-left: 190px;
   margin-top: 0;
-  color: #FFFFFF;
-
-  
+  color: #ffffff;
 }
-
-
-
 
 .info_title {
   text-align: center;
   width: 379px;
   height: 61px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 50px;
   line-height: 100%;
   letter-spacing: -2%;
   padding-top: 50px;
   padding-bottom: 80px;
-
 }
 
 .info {
-
 }
-
 
 .info_span1 {
   color: #c62314;
-
 }
 
 .info_span2 {
@@ -162,27 +135,24 @@ body {
   background-color: #fff;
   color: #130e27;
   padding-top: 20px;
-
 }
 
 .cards_text {
   width: 165px;
   height: 56px;
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: -3%;
   color: #161616;
   margin-top: 36px;
-
 }
 
 .container1 {
   max-width: 1540px;
   width: 100%;
 }
-
 
 .info_history {
   display: flex;
@@ -192,37 +162,31 @@ body {
   text-align: center;
   align-items: center;
   background-color: #130e27;
- 
-
-
 }
 .history {
   width: 611px;
   height: 56px;
   margin-left: 192px;
   text-align: center;
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -2%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn {
   width: 270px;
   height: 64px;
   margin-right: 120px;
-  color: #FFFFFF;
-  background-color: #C62314;
-  font-family: "Montserrat";
+  color: #ffffff;
+  background-color: #c62314;
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 22px;
   line-height: 100%;
   letter-spacing: 0%;
-
-
 }
-
 
 .prices {
   background-color: #efefef;
@@ -232,7 +196,7 @@ body {
 .price_title {
   width: 216px;
   height: 61px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 50px;
   line-height: 100%;
@@ -242,27 +206,23 @@ body {
   margin-left: 612px;
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .cards_item {
   display: flex;
   justify-content: space-around;
-
 }
 
 .cards_price {
   width: 340px;
   height: 460px;
-  background-color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
- 
-
 }
 
 .card_text {
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -3%;
@@ -271,52 +231,50 @@ body {
 .btn1 {
   width: 205px;
   height: 50px;
-  background-color: #130E27;
+  background-color: #130e27;
   margin-left: 75px;
 }
 .btn2 {
   width: 205px;
   height: 50px;
-  background-color: #C62314;
+  background-color: #c62314;
   margin-left: 75px;
 }
 .btn3 {
   width: 205px;
   height: 50px;
-  background-color: #130E27;
+  background-color: #130e27;
   margin-left: 75px;
-
 }
 
 .btn_text1 {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 43px;
   height: 27px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 0%
-  
+  letter-spacing: 0%;
 }
 
 .btn_text2 {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 95px;
   height: 27px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 0%
+  letter-spacing: 0%;
 }
 
 .btn_text3 {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 95px;
   height: 27px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 0%
+  letter-spacing: 0%;
 }
 
 #card1 {
@@ -329,7 +287,6 @@ body {
   width: 81px;
   height: 28px;
   padding-left: 130px;
-  
 }
 
 #card3 {
@@ -344,7 +301,6 @@ body {
   margin-left: 108px;
   margin-top: 30px;
   margin-bottom: 40px;
-
 }
 
 #card_id2 {
@@ -363,14 +319,13 @@ body {
   margin-bottom: 40px;
 }
 
-
 .card-header {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .name_cards {
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -378,43 +333,19 @@ body {
   color: #161616;
   margin: 0;
   padding-top: 35px;
-  
-  
 }
 
 .price__card {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 50px;
   font-weight: bold;
   line-height: 100%;
   letter-spacing: -2%;
-  color: #C62314;
+  color: #c62314;
   margin: 10px 0;
   padding-top: 40px;
 }
 
 .btn_liner {
-  margin-left: 54px;  
+  margin-left: 54px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
