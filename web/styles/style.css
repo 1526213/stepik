@@ -194,6 +194,7 @@ body {
   background-color: #efefef;
 }
 .prices_inner {
+  padding-bottom: 50px;
 }
 .price_title {
   width: 216px;
